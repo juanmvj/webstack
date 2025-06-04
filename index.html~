@@ -188,9 +188,9 @@
                             </li>
                         </ul>
                     </li>-->
-                    <li><a href="#process-sec">Acerca de</a></li>
+                    <li><a href="about.html">Acerca de</a></li>
                     <li class="menu-item-has-children">
-                        <a href="#">Beneficios</a>
+                        <a href="#">Servicios</a>
                         <ul class="sub-menu">
                             <li><a href="service.html">Services</a></li>
                             <li><a href="service-details.html">Services Details</a></li>
@@ -241,12 +241,12 @@
             <div class="menu-area">
                 <div class="container th-container5">
                     <div class="row align-items-center justify-content-between">
-                        <div  class="col-auto">
+                        <div class="col-auto">
                             <div class="header-logo">
                                 <a class="icon-masking" href="index.html"><span data-mask-src="assets/img/ws.svg" class="mask-icon"></span><img src="assets/img/ws-logo1.svg" alt="Webteck"></a>
                             </div>
                         </div>
-                        <div  class="col-auto">
+                        <div class="col-auto">
                             <nav class="main-menu style2 d-none d-lg-inline-block">
                                 <ul>
                                     <!--<li class="menu-item-has-children mega-menu-wrap">
@@ -322,19 +322,19 @@
                                             </li>
                                         </ul>
                                     </li>-->
-                                    <li><a href="#process-sec">Acerca de</a></li>
-                                    <li><a href="#service-sec">Beneficios</a></li>
-                                    <li><a href="#project-sec">Ejemplos</a></li>
+                                    <li><a href="#about-sec">Acerca de</a></li>
+                                    <li><a href="#service-sec">Servicios</a></li>
+                                    <li><a href="#project-sec">Proyectos</a></li>
 				   <!--<li><a href="#blog-sec">Blog</a></li>-->
-                                    <li><a href="#price-sec">Precio</a></li>
+                                    <li><a href="#contact-sec">Contáctanos</a></li>
 
                                 </ul>
                             </nav>
-                            <!--<button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>-->
+                            <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
                         </div>
                         <div class="col-auto d-none d-lg-inline-block">
                             <div class="header-button">
-                                <a href="#contact-sec" class="th-btn style6 style-radius">Crea tu web profesional!</a>
+                                <a href="contact.html" class="th-btn style6 style-radius">Comencemos!</a>
                             </div>
                         </div>
                     </div>
@@ -354,7 +354,7 @@ Hero Area
                     <h1 class="hero-title text-white">Webs que destacan, a precios que encajan! </h1>
                     <p class="hero-text text-white">Te ofrecemos crear un Sitio web profesional, donde tú poseas el código, sin pagos mensuales, lo hacemos por ti y con hosting gratuito de por vida.</p>
                     <div class="btn-group mt-35">
-                        <a href="#process-sec" class="th-btn style6 style-radius">Cómo funciona?</a>
+                        <a href="service.html" class="th-btn style6 style-radius">Cómo funciona?</a>
                     </div>
                 </div>
             </div>
@@ -372,9 +372,9 @@ Counter Area
                         <img src="assets/img/icon/counter_card_4_1.svg" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="box-number"><span class="counter-number">500</span>+</h3>
-                        <h6 class="counter-title">Sitios Web Entregados</h6>
-                        <p class=" counter-text mb-0">Hemos ayudado a más de 500 proyectos y negocios a tener presencia online profesional sin gastar de más.</p>
+                        <h3 class="box-number"><span class="counter-number">20</span>X</h3>
+                        <h6 class="counter-title">Return on investment</h6>
+                        <p class=" counter-text mb-0">Return on investment is a financial metric that measures</p>
                     </div>
                 </div>
                 <div class="divider"></div>
@@ -383,9 +383,9 @@ Counter Area
                         <img src="assets/img/icon/counter_card_4_2.svg" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="box-number"><span class="counter-number">10</span>días</h3>
-                        <h6 class="counter-title">Entrega garantizada</h6>
-                        <p class=" counter-text mb-0">Diseño, ajustes y publicación listos en semana y media.</p>
+                        <h3 class="box-number"><span class="counter-number">150</span>k+</h3>
+                        <h6 class="counter-title">Keywords optimization</h6>
+                        <p class=" counter-text mb-0">keywords into online content, such as websites, blogs</p>
                     </div>
                 </div>
                 <div class="divider"></div>
@@ -394,9 +394,9 @@ Counter Area
                         <img src="assets/img/icon/counter_card_4_3.svg" alt="">
                     </div>
                     <div class="media-body">
-                        <h3 class="box-number"><span class="counter-number">100</span>%</h3>
-                        <h6 class="counter-title">Atención personalizada</h6>
-                        <p class=" counter-text mb-0">Te guiamos en todo el proceso</p>
+                        <h3 class="box-number"><span class="counter-number">10,000</span>+</h3>
+                        <h6 class="counter-title">Successful campaigns</h6>
+                        <p class=" counter-text mb-0">Successful campaigns leverage strategic planning goals</p>
                     </div>
                 </div>
                 <div class="divider"></div>
@@ -407,7 +407,7 @@ About Area
 ==============================-->
     <div class=" position-relative overflow-hidden" id="about-sec">
         <div class="container th-container5">
-            <div class="about-sec4 position-relative overflow-hidden" data-bg-src="assets/img/1.png">
+            <div class="about-sec4 position-relative overflow-hidden" data-bg-src="assets/img/normal/about_4.jpg">
                 <div class="about-shape4">
                     <div class="marquee-wrapper">
                         <div class="marquee">
@@ -602,11 +602,12 @@ About Area
                 <div class="about-area4">
                     <div class="title-area-wrapper">
                         <div class="title-area mb-40">
-                            <span class="sub-title style1 text-white">Nuestra Misión</span>
-                            <h2 class="sec-title text-white">Sitios web listos para crecer, con diseño profesional, sin mensualidades, y con total propiedad para el cliente.
+                            <span class="sub-title style1 text-white">Our Main Mission</span>
+                            <h2 class="sec-title text-white">Our mission is to look after the financial best interests
+                                with automation
                             </h2>
                         </div>
-                        <a href="#contact-sec" class="th-btn style5 style-radius">Crea tu web profesional!</a>
+                        <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
                     </div>
                 </div>
 
@@ -622,62 +623,14 @@ Service Area
                     <div class="icon-masking me-2">
                         <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span>
                         <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
-                    </div>Lo que ofrecemos
+                    </div>What We Provide
                 </span>
-                <h2 class="sec-title">Un sitio web que sea tuyo a un precio justo</h2>
+                <h2 class="sec-title">Data-driven, customer-centric digital services</h2>
             </div>
             <div class="slider-area">
                 <div class="swiper th-slider has-shadow" id="serviceSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="service-item th-ani">
-                                <div class="service-item_icon">
-                                    <img src="assets/img/icon/service_6_1.svg" alt="Icon">
-                                </div>
-                                <div class="service-item_content">
-                                    <h3 class="box-title"><a href="service-details.html">Un Sólo Pago</a></h3>
-                                    <p class="service-item_text">Sin pagos mensuales, sin plazos forzosos.</p>
-                                    <!--<a href="service-details.html" class="line-btn">Read Details</a>-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-item th-ani">
-                                <div class="service-item_icon">
-                                    <img src="assets/img/icon/service_6_2.svg" alt="Icon">
-                                </div>
-                                <div class="service-item_content">
-                                    <h3 class="box-title"><a href="service-details.html">Plantillas profesionales</a></h3>
-                                    <p class="service-item_text">Plantillas creadas por profesionales para optimizar resultados y calidad.</p>
-                                    <!--<a href="service-details.html" class="line-btn">Read Details</a>-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-item th-ani">
-                                <div class="service-item_icon">
-                                    <img src="assets/img/icon/service_6_3.svg" alt="Icon">
-                                </div>
-                                <div class="service-item_content">
-                                    <h3 class="box-title"><a href="service-details.html">Hosting Gratuito</a></h3>
-                                    <p class="service-item_text">Ofrecemos servicio de hosting gratis de por vida para que evites ese gasto adicional.</p>
-                                    <!--<a href="service-details.html" class="line-btn">Read Details</a>-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-item th-ani">
-                                <div class="service-item_icon">
-                                    <img src="assets/img/icon/service_6_4.svg" alt="Icon">
-                                </div>
-                                <div class="service-item_content">
-                                    <h3 class="box-title"><a href="service-details.html">Adaptado a tu negocio por profesionales</a></h3>
-                                    <p class="service-item_text">Adaptamos por ti toda la información para que sea un sitio a la medida.</p>
-                                    <!--<a href="service-details.html" class="line-btn">Read Details</a>-->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="swiper-slide">
                             <div class="service-item th-ani">
                                 <div class="service-item_icon">
                                     <img src="assets/img/icon/service_6_1.svg" alt="Icon">
@@ -724,7 +677,55 @@ Service Area
                                     <a href="service-details.html" class="line-btn">Read Details</a>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-item th-ani">
+                                <div class="service-item_icon">
+                                    <img src="assets/img/icon/service_6_1.svg" alt="Icon">
+                                </div>
+                                <div class="service-item_content">
+                                    <h3 class="box-title"><a href="service-details.html">Web Marketing</a></h3>
+                                    <p class="service-item_text">Web marketing, also known as online marketing or digital marketing encompasses </p>
+                                    <a href="service-details.html" class="line-btn">Read Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-item th-ani">
+                                <div class="service-item_icon">
+                                    <img src="assets/img/icon/service_6_2.svg" alt="Icon">
+                                </div>
+                                <div class="service-item_content">
+                                    <h3 class="box-title"><a href="service-details.html">Web Development</a></h3>
+                                    <p class="service-item_text">Web development involves creating and maintaining websites or web applications</p>
+                                    <a href="service-details.html" class="line-btn">Read Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-item th-ani">
+                                <div class="service-item_icon">
+                                    <img src="assets/img/icon/service_6_3.svg" alt="Icon">
+                                </div>
+                                <div class="service-item_content">
+                                    <h3 class="box-title"><a href="service-details.html">Creative Layout</a></h3>
+                                    <p class="service-item_text">A creative layout refers to the visually appealing and strategically organized arrangement</p>
+                                    <a href="service-details.html" class="line-btn">Read Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-item th-ani">
+                                <div class="service-item_icon">
+                                    <img src="assets/img/icon/service_6_4.svg" alt="Icon">
+                                </div>
+                                <div class="service-item_content">
+                                    <h3 class="box-title"><a href="service-details.html">Product Design</a></h3>
+                                    <p class="service-item_text">Product design is the process of creating and refining a tangible or digital product</p>
+                                    <a href="service-details.html" class="line-btn">Read Details</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button data-slider-prev="#serviceSlider1" class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
@@ -732,7 +733,7 @@ Service Area
             </div>
         </div>
     </section>
-    <div class="overflow-hidden space" data-bg-src="assets/img/bg/choose_bg_2.jpg" id="process-sec">
+    <div class="overflow-hidden space" data-bg-src="assets/img/bg/choose_bg_2.jpg">
         <div class="container th-container5">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
@@ -741,39 +742,42 @@ Service Area
                             <div class="icon-masking me-2">
                                 <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span>
                                 <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
-                            </div>Todo en menos de dos semanas
+                            </div>Why Work With Us
                         </span>
-                        <h2 class="sec-title">Nuestro Proceso</h2>
+                        <h2 class="sec-title text-white">Nuestro Proceso</h2>
                     </div>
                 </div>
             </div>
             <div class="choose-tabs-wrapper">
                 <div class="nav nav-tabs choose-tabs-tabs" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="nav-step1-tab" data-bs-toggle="tab" data-bs-target="#nav-step1" type="button">1. Llamada para alinear objetivos</button>
-                    <button class="nav-link" id="nav-step2-tab" data-bs-toggle="tab" data-bs-target="#nav-step2" type="button">2. Selección de Plantilla</button>
-                    <button class="nav-link" id="nav-step3-tab" data-bs-toggle="tab" data-bs-target="#nav-step3" type="button">3. Desarollo</button>
-                    <button class="nav-link" id="nav-step4-tab" data-bs-toggle="tab" data-bs-target="#nav-step4" type="button">4. Entrega y publicación</button>
+                    <button class="nav-link active" id="nav-step1-tab" data-bs-toggle="tab" data-bs-target="#nav-step1" type="button">Expertise and Experience</button>
+                    <button class="nav-link" id="nav-step2-tab" data-bs-toggle="tab" data-bs-target="#nav-step2" type="button">Quality Workmanship</button>
+                    <button class="nav-link" id="nav-step3-tab" data-bs-toggle="tab" data-bs-target="#nav-step3" type="button">Commitment to Safety</button>
+                    <button class="nav-link" id="nav-step4-tab" data-bs-toggle="tab" data-bs-target="#nav-step4" type="button">Reliability and Consistency</button>
                 </div>
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-step1" role="tabpanel">
                         <div class="choose-wrapper">
                             <div class="choose-content">
                                 <div class="title-area mb-30">
-                                    <h5 class="sec-title mb-3 text-white">Llamada para alinear objetivos</h5>
-                                    <p class="box-text">Tendremos una llamada para alinear objectivos, estilos y explicar el proceso</p>
+                                    <h5 class="sec-title mb-3 text-white">Expertise and Experience</h5>
+                                    <p class="box-text">While Google Ads is undoubtedly a powerful advertising
+                                        platform, it’s important to recognize that there are various other avenues to
+                                        effectively
+                                        display ads...</p>
                                 </div>
                                 <div class="checklist">
                                     <ul>
-                                        <li><i class="far fa-check-circle text-body"></i>Alcance</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Entendimiento del negocio</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Muestra de plantillas</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Best Service for You</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Keeping Your Team Productive</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Predictable Costs 24/</li>
                                     </ul>
                                 </div>
 
-                                <a href="#contact-sec" class="th-btn style6 style-radius">Crea tu web profesional!</a>
+                                <a href="contact.html" class="th-btn style6 style-radius">Comencemos!</a>
                             </div>
                             <div class="choose-image th-anim">
-                                <img src="assets/img/2.png" alt="">
+                                <img src="assets/img/normal/choose_img_1.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -781,21 +785,24 @@ Service Area
                         <div class="choose-wrapper">
                             <div class="choose-content">
                                 <div class="title-area mb-30">
-                                    <h5 class="sec-title mb-3 text-white">Selección de Plantilla</h5>
-                                    <p class="box-text">Se elegirá la plantilla con la que trabajaremos y seleccionaremos las partes y estilo deseados.</p>
+                                    <h5 class="sec-title mb-3 text-white">Quality Workmanship</h5>
+                                    <p class="box-text">While Google Ads is undoubtedly a powerful advertising
+                                        platform, it’s important to recognize that there are various other avenues to
+                                        effectively
+                                        display ads...</p>
                                 </div>
                                 <div class="checklist">
                                     <ul>
-                                        <li><i class="far fa-check-circle text-body"></i>Selección de estilo</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Selección de componentes deseados</li>
-                                        <!-- <li><i class="far fa-check-circle text-body"></i>Predictable Costs 24/</li> -->
+                                        <li><i class="far fa-check-circle text-body"></i>Best Service for You</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Keeping Your Team Productive</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Predictable Costs 24/</li>
                                     </ul>
                                 </div>
 
-                                <a href="#contact-sec" class="th-btn style6 style-radius">Crea tu web profesional!</a>
+                                <a href="contact.html" class="th-btn style6 style-radius">Comencemos!</a>
                             </div>
                             <div class="choose-image th-anim">
-                                <img src="assets/img/3.png" alt="">
+                                <img src="assets/img/normal/choose_img_2.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -803,21 +810,24 @@ Service Area
                         <div class="choose-wrapper">
                             <div class="choose-content">
                                 <div class="title-area mb-30">
-                                    <h5 class="sec-title mb-3 text-white">Desarrollo</h5>
-                                    <p class="box-text">Desarrollo de 10 días con reporte de avances y demo en vivo para probar.</p>
+                                    <h5 class="sec-title mb-3 text-white">Commitment to Safety</h5>
+                                    <p class="box-text">While Google Ads is undoubtedly a powerful advertising
+                                        platform, it’s important to recognize that there are various other avenues to
+                                        effectively
+                                        display ads...</p>
                                 </div>
                                 <div class="checklist">
                                     <ul>
-                                        <li><i class="far fa-check-circle text-body"></i>Demo en vivo</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Reporte de avances constante</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Modificaciones y cambios</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Best Service for You</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Keeping Your Team Productive</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Predictable Costs 24/</li>
                                     </ul>
                                 </div>
 
-                                <a href="#contact-sec" class="th-btn style6 style-radius">Crea tu web profesional!</a>
+                                <a href="contact.html" class="th-btn style6 style-radius">Comencemos!</a>
                             </div>
                             <div class="choose-image th-anim">
-                                <img src="assets/img/4.png" alt="">
+                                <img src="assets/img/normal/choose_img_3.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -825,21 +835,24 @@ Service Area
                         <div class="choose-wrapper">
                             <div class="choose-content">
                                 <div class="title-area mb-30">
-                                    <h5 class="sec-title mb-3 text-white">Entrega y publicación</h5>
-                                    <p class="box-text">Una vez aprobado el proyecto, se hará la publicación y despliegue.</p>
+                                    <h5 class="sec-title mb-3 text-white">Reliability and Consistency</h5>
+                                    <p class="box-text">While Google Ads is undoubtedly a powerful advertising
+                                        platform, it’s important to recognize that there are various other avenues to
+                                        effectively
+                                        display ads...</p>
                                 </div>
                                 <div class="checklist">
                                     <ul>
-                                        <li><i class="far fa-check-circle text-body"></i>Cambios menores aceptados</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Explicación detallada del funcionamiento</li>
-                                        <li><i class="far fa-check-circle text-body"></i>Explicación sobre dominio personal y hosting gratuito</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Best Service for You</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Keeping Your Team Productive</li>
+                                        <li><i class="far fa-check-circle text-body"></i>Predictable Costs 24/</li>
                                     </ul>
                                 </div>
 
-                                <a href="#contact-sec" class="th-btn style6 style-radius">Crea tu web profesional!</a>
+                                <a href="contact.html" class="th-btn style6 style-radius">Comencemos!</a>
                             </div>
                             <div class="choose-image th-anim">
-                                <img src="assets/img/6.png" alt="">
+                                <img src="assets/img/normal/choose_img_4.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -859,13 +872,13 @@ Project Area
                                 <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span>
                                 <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
                             </div>
-                            Algunos ejemplos
+                            Success Stories
                         </span>
-                        <h2 class="sec-title">Soluciones que mejor se adapten a tu negocio</h2>
+                        <h2 class="sec-title">Our work that inspired you to work with us</h2>
                     </div>
-                    <!--<div class="project-btn">
+                    <div class="project-btn">
                         <a href="project.html" class="th-btn style-border style-radius">View All Stories</a>
-                    </div>-->
+                    </div>
                 </div>
                 <div class="col-xl-8">
                     <div class="slider-area project-slider4">
@@ -875,16 +888,16 @@ Project Area
                                 <div class="swiper-slide">
                                     <div class="project-box4">
                                         <div class="project-img">
-                                            <img src="assets/img/portfolio-sqare.png" alt="project">
+                                            <img src="assets/img/project/project_4_1.jpg" alt="project">
                                         </div>
                                         <div class="project-content">
                                             <div class="media-body">
-                                                <h3 class="box-title"><a href="https://marketifythemes.net/html/grax/index.html" target="_blank">Portafolio Personal</a></h3>
-                                                <!-- <div class="project-tags">
+                                                <h3 class="box-title"><a href="project-details.html">Technology Growth</a></h3>
+                                                <div class="project-tags">
                                                     <a href="project-details.html">Marketing</a>
                                                     <a href="project-details.html">Service</a>
                                                     <a href="project-details.html">Solution</a>
-                                                </div> -->
+                                                </div>
                                             </div>
 
                                         </div>
@@ -895,17 +908,16 @@ Project Area
                                 <div class="swiper-slide">
                                     <div class="project-box4">
                                         <div class="project-img">
-                                            <img src="assets/img/restaurante-square.png" alt="project">
+                                            <img src="assets/img/project/project_4_2.jpg" alt="project">
                                         </div>
                                         <div class="project-content">
                                             <div class="media-body">
-                                                <h3 class="box-title"><a href="https://elegencia-react-ejev.vercel.app/?storefront=envato-elements" target="_blank">Restaurante
-                                                </a></h3>
-                                                <!-- <div class="project-tags">
+                                                <h3 class="box-title"><a href="project-details.html">IT Consultency</a></h3>
+                                                <div class="project-tags">
                                                     <a href="project-details.html">Marketing</a>
                                                     <a href="project-details.html">Service</a>
                                                     <a href="project-details.html">Solution</a>
-                                                </div> -->
+                                                </div>
                                             </div>
 
                                         </div>
@@ -916,16 +928,16 @@ Project Area
                                 <div class="swiper-slide">
                                     <div class="project-box4">
                                         <div class="project-img">
-                                            <img src="assets/img/consulting-square.png" alt="project">
+                                            <img src="assets/img/project/project_4_1.jpg" alt="project">
                                         </div>
                                         <div class="project-content">
                                             <div class="media-body">
-                                                <h3 class="box-title"><a href="https://html.nextwpcook.com/finaxio/?storefront=envato-elements" target="_blank">Consultoría</a></h3>
-                                                <!-- <div class="project-tags">
+                                                <h3 class="box-title"><a href="project-details.html">Technology Growth</a></h3>
+                                                <div class="project-tags">
                                                     <a href="project-details.html">Marketing</a>
                                                     <a href="project-details.html">Service</a>
                                                     <a href="project-details.html">Solution</a>
-                                                </div> -->
+                                                </div>
                                             </div>
 
                                         </div>
@@ -936,16 +948,16 @@ Project Area
                                 <div class="swiper-slide">
                                     <div class="project-box4">
                                         <div class="project-img">
-                                            <img src="assets/img/lawyer-sqare.png" alt="project">
+                                            <img src="assets/img/project/project_4_2.jpg" alt="project">
                                         </div>
                                         <div class="project-content">
                                             <div class="media-body">
-                                                <h3 class="box-title"><a href="https://htmldemo.zcubethemes.com/libras/?storefront=envato-elements" target="_blank">Firma Legal</a></h3>
-                                                <!-- <div class="project-tags">
+                                                <h3 class="box-title"><a href="project-details.html">IT Consultency</a></h3>
+                                                <div class="project-tags">
                                                     <a href="project-details.html">Marketing</a>
                                                     <a href="project-details.html">Service</a>
                                                     <a href="project-details.html">Solution</a>
-                                                </div> -->
+                                                </div>
                                             </div>
 
                                         </div>
@@ -1019,17 +1031,17 @@ Cta Area
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
                         <div class="title-area mb-25 text-center">
-                            <span class="sub-title cta-title">Trabajemos juntos</span>
-                            <h2 class="sec-title text-white">Listo para mejorar tu presencia digital?</h2>
-                            <!-- <p class="cta-text text-white">Sign up for Webteck today and experience the power of AI-powered
-                                copywriting.</p> -->
+                            <span class="sub-title cta-title">Work With Us</span>
+                            <h2 class="sec-title text-white">Ready to revolutionize your marketing?</h2>
+                            <p class="cta-text text-white">Sign up for Webteck today and experience the power of AI-powered
+                                copywriting.</p>
                         </div>
-                        <!-- <div class="cta-counter">
+                        <div class="cta-counter">
                             <h2 class="counter-title text-white"><span class="counter-number">10,000000</span>M+</h2>
                             <p class="cta-desc text-white text-uppercase">Ads We Run</p>
-                        </div> -->
+                        </div>
                         <div class="mt-45">
-                            <a href="#contact-sec" class="th-btn style5 style-radius">Crea tu web profesional!</a>
+                            <a href="about.html" class="th-btn style5 style-radius">More About Us</a>
                         </div>
                     </div>
                 </div>
@@ -1038,7 +1050,7 @@ Cta Area
     </section><!--==============================
 Price Area  
 ==============================-->
-    <section class="space" id="price-sec">
+    <section class="space">
         <div class="container th-container5">
             <div class="title-area text-center">
                 <span class="sub-title">
@@ -1046,13 +1058,13 @@ Price Area
                         <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span>
                         <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
                     </div>
-                    Costos
+                    Pricing Plans
                 </span>
-                <h2 class="sec-title">Un sólo pago</h2>
+                <h2 class="sec-title">Effective Pricing Plans</h2>
             </div>
             <div class="row gy-4 justify-content-center">
 
-                <!--<div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6">
                     <div class="price-box th-ani ">
                         <h3 class="box-title">Normal Plan</h3>
                         <span class="offer-tag"></span>
@@ -1069,30 +1081,30 @@ Price Area
                             <a href="contact.html" class="th-btn btn-fw style-radius">Choose Plan</a>
                         </div>
                     </div>
-                </div>-->
+                </div>
 
                 <div class="col-xl-4 col-md-6">
                     <div class="price-box th-ani active">
-                        <h3 class="box-title">Precio Único</h3>
-                        <span class="offer-tag"><span class="tag"></span></span>
-                        <h4 class="price-box_price"><span class="currency">€</span>150.00</h4>
-                        <h6 class="price-box_text">Sin gastos ocultos</h6>
+                        <h3 class="box-title">Standard Plan</h3>
+                        <span class="offer-tag"><span class="tag">Featured</span></span>
+                        <h4 class="price-box_price"><span class="currency">$</span>69.00</h4>
+                        <h6 class="price-box_text">Get Popular Plan From Us</h6>
                         <div class="price-box_content">
                             <div class="available-list">
                                 <ul>
-                                    <li>Hosting gratuito sin límite</li>
-                                    <li>Sin marcas de agua</li>
-                                    <li>Eres dueño del código</li>
-                                    <li>SEO optimizado</li>
-                                    <li>Sin gastos mensuales</li>
+                                    <li>Ad Management</li>
+                                    <li>Live Chat</li>
+                                    <li>Multi-Language Content</li>
+                                    <li> Conversational Bots</li>
+                                    <li> Programmable Chatbots</li>
                                 </ul>
                             </div>
-                            <a href="#contact-sec" class="th-btn btn-fw style-radius">Crea tu web prfesional!</a>
+                            <a href="contact.html" class="th-btn btn-fw style-radius">Choose Plan</a>
                         </div>
                     </div>
                 </div>
 
-                <!--<div class="col-xl-4 col-md-6">
+                <div class="col-xl-4 col-md-6">
                     <div class="price-box th-ani ">
                         <h3 class="box-title">Ultimate Plan</h3>
                         <span class="offer-tag"></span>
@@ -1109,24 +1121,24 @@ Price Area
                             <a href="contact.html" class="th-btn btn-fw style-radius">Choose Plan</a>
                         </div>
                     </div>
-                </div>-->
+                </div>
 
             </div>
         </div>
     </section><!--==============================
 Cta Area  
 ==============================-->
-    <section class="cta-area5" data-bg-src="assets/img/5.png">
+    <section class="cta-area5" data-bg-src="assets/img/bg/cta_bg_4.jpg">
         <div class="container th-container5">
             <div class="row">
                 <div class="col-xl-6">
                     <div class="cta-title-area">
                         <div class="title-area mb-50">
-                            <h2 class="sec-title text-white">Tu presencia online es la puerta a nuevas oportunidades.</h2>
-                            <p class="sec-text text-white">No la dejes en las manos equivocadas</p>
+                            <h2 class="sec-title text-white">Get to know the incredible individuals behind our company</h2>
+                            <p class="sec-text text-white">Comprehensive financial consulting services tailored to your needs</p>
                         </div>
                         <div class="">
-                            <a href="#contact-sec" class="th-btn style6 style-radius">Crea tu web profesional!</a>
+                            <a href="contact.html" class="th-btn style6 style-radius">Schedule a free consultation</a>
                         </div>
                     </div>
                 </div>
@@ -1135,7 +1147,7 @@ Cta Area
     </section> <!--==============================
 appointment Area  
 ==============================-->
-    <section class="space" data-bg-src="assets/img/bg/appointment_bg_2.jpg" id="contact-sec">
+    <section class="space" data-bg-src="assets/img/bg/appointment_bg_2.jpg">
         <div class="container th-container5">
             <div class="row align-items-center">
                 <div class="col-xl-6">
@@ -1145,13 +1157,14 @@ appointment Area
                                 <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg"></span>
                                 <img src="assets/img/theme-img/title_shape_1.svg" alt="shape">
                             </div>
-                            Colaboremos
+                            Work With Us
                         </span>
-                        <h2 class="sec-title text-white">Incrementa tu presencia online hoy. </h2>
-                        <p class="sec-text">Estamos encantados de responder cualquier pregunta que puedas tener y 
-                            ayudarte a determinar las características que se ajustan mejor a tus necesidades.</p>
+                        <h2 class="sec-title text-white">Get free IT business consultation
+                            today. Feel free to contact!</h2>
+                        <p class="sec-text">We’re happy to answer any questions you may have and help you determine
+                            which of our services best fit your needs.</p>
                     </div>
-                    <!--<div class="feature-wrapper style3">
+                    <div class="feature-wrapper style3">
                         <div class="feature-icon">
                             <a href="tel:+18003568933"><img src="assets/img/icon/call_2.svg" alt=""></a>
                         </div>
@@ -1159,63 +1172,60 @@ appointment Area
                             <span class="header-info_label">Call us at:</span>
                             <p class="header-info_link"><a href="tel:+18003568933">1-800-356-8933</a></p>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="work-area">
-                        <h5 class="box-title mb-30 text-white">Comencemos</h5>
+                        <h5 class="box-title mb-30 text-white">How We Works?</h5>
                         <div class="work-item_wrapper">
                             <div class="work-item">
                                 <span class="work-item_number">01</span>
-                                <p class="work-text">Comunicación por correo o llamada</p>
+                                <p class="work-text">We schedule a call at for your service</p>
                             </div>
                             <div class="work-item">
                                 <span class="work-item_number">02</span>
-                                <p class="work-text">Alinear objetivos y necesidades</p>
+                                <p class="work-text">Engage with clients understand their needs, and goals.</p>
                             </div>
                             <div class="work-item">
                                 <span class="work-item_number">03</span>
-                                <p class="work-text">Selección de plantilla y desarrollo</p>
+                                <p class="work-text">Gather feedback from clients to understand their satisfaction</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="appointment-area-wrapp">
-                        <h6 class="title">Completa el formulario de contacto</h6>
-                        <form id="contact-form" class="appointment-form3 input-smoke ajax-contact">
+                        <h6 class="title">Please fill in the information below</h6>
+                        <form action="mail.php" method="POST" class="appointment-form3 input-smoke ajax-contact">
                             <div class="row">
-                            <div class="form-group col-md-6">
-                            <label for="name">Tu nombre*</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="" required>
-                            </div>
-                            <div class="form-group col-md-6">
-                            <label for="email">Dirección de correo electrónico*</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="" required>
-                            </div>
-                            <!--<div class="form-group col-md-12">
-                            <label for="number">Número de teléfono*</label>
-                            <input type="tel" class="form-control" name="number" id="number" placeholder="" >
-                            </div>
-                            <div class="form-group col-md-6">
-                            <label for="text">Sitio web de la empresa*</label>
-                            <input type="text" class="form-control" name="text" id="text" placeholder="">
-                            </div>
-                            <div class="form-group col-12">
-                            <label for="text2">Acerca de la empresa / organización*</label>
-                            <input type="text" class="form-control" name="text" id="text2" placeholder="">
-                            </div>-->
-                            <div class="form-group col-12">
-                            <label for="message">Tu duda o mensaje*</label>
-                            <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="" required></textarea>
-                            </div>
-                            <div class="form-btn col-12">
-                            <button type="submit" class="th-btn btn-fw" id="submit-btn">
-                            <span class="btn-text">Enviar Mensaje</span>
-                            <span class="btn-loading" style="display: none;">Enviando...</span>
-                            </button>
-                            </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your name*</label>
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Email address*</label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Phone number*</label>
+                                    <input type="tel" class="form-control" name="number" id="number" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Company website*</label>
+                                    <input type="text" class="form-control" name="text" id="text" placeholder="">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="name">Company / Organization about*</label>
+                                    <input type="text" class="form-control" name="text" id="text2" placeholder="">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="name">Describe your message*</label>
+                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder=""></textarea>
+                                </div>
+                                <div class="form-btn col-12">
+                                    <button class="th-btn btn-fw">Submit Message</button>
+                                </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
-                            </form>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -1404,7 +1414,7 @@ Blog Area
     <!--==============================
 Contact Area  
 ==============================-->
-    <!--<div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
+    <div class="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8">
@@ -1455,16 +1465,15 @@ Contact Area
                 </div>
             </div>
         </div>
-    </div>-->
-    <!--==============================
+    </div><!--==============================
 	Footer Area
 ==============================-->
     <footer class="footer-wrapper footer-layout5">
-        <<div class="container th-container5">
+        <div class="container th-container5">
             <div class="footer-top">
                 <div class="row gx-0 align-items-center">
                     <div class="col-xl">
-                        <!-- <div class="footer-newsletter">
+                        <div class="footer-newsletter">
                             <div class="footer-newsletter-content">
                                 <h2 class="newsletter-title">Subscribe for daily update</h2>
                             </div>
@@ -1473,7 +1482,7 @@ Contact Area
                                 <input class="form-control" type="email" placeholder="Email Address" required="">
                                 <button type="submit" class="th-btn">Subscribe Now</button>
                             </form>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1481,32 +1490,34 @@ Contact Area
                 <div class="row justify-content-between">
                     <div class="col-md-6 col-xxl-3 col-xl-4">
                         <div class="widget footer-widget">
-                            <h3 class="widget_title">Webstack</h3>
+                            <h3 class="widget_title">About Company</h3>
                             <div class="th-widget-about">
-                                <p class="about-text">Creemos que la calidad debe estar al alcance de todos los que buscan crecer y crear.</p>
-                                <!--<div class="th-social">
+                                <p class="about-text">Professionally redefine transparent ROI through low-risk high-yield imperatives. Progressively create empowered. cost effective users via team driven.</p>
+                                <div class="th-social">
                                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
                                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                                     <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
                                     <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                                </div>-->
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
-                            <h3 class="widget_title">Enlaces</h3>
+                            <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="#process-sec">Acerca de</a></li>
-                                    <li><a href="#project-sec">Ejemplos</a></li>
-                                    <li><a href="#price-sec">Precio</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="team.html">Meet Our Team</a></li>
+                                    <li><a href="project.html">Our Projects</a></li>
+                                    <li><a href="faq.html">Help & FAQs</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <!--<div class="col-md-6 col-xl-auto">
+                    <div class="col-md-6 col-xl-auto">
                         <div class="widget widget_nav_menu footer-widget">
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
@@ -1519,8 +1530,8 @@ Contact Area
                                 </ul>
                             </div>
                         </div>
-                    </div>-->
-                    <!--<div class="col-md-6 col-xl-auto">
+                    </div>
+                    <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -1548,10 +1559,10 @@ Contact Area
                                 </div>
                             </div>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
-        </div>-
+        </div>
         <div class="copyright-wrap">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
@@ -1561,9 +1572,9 @@ Contact Area
                     <div class="col-lg-6 text-lg-end text-center">
                         <div class="footer-links">
                             <ul>
-                                <li><a href="terms.html">Términos y condiciones</a></li>
-                                <!-- <li><a href="about.html">Careers</a></li> -->
-                                <li><a href="privacidad.html">Política de privacidad</a></li>
+                                <li><a href="about.html">Terms & Condition</a></li>
+                                <li><a href="about.html">Careers</a></li>
+                                <li><a href="about.html">Privacy Policy</a></li>
                             </ul>
                         </div>
                     </div>
@@ -1622,11 +1633,6 @@ Contact Area
 
     <!-- imageRevealHover js -->
     <script src="assets/js/imageRevealHover.js"></script>
-
-    <!-- mail JS-->
-
-    <script src="assets/js/mail.js"></script>
-
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
 

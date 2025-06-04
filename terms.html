@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Condiciones de Servicio - WebStack</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.03) 10px,
+                rgba(255,255,255,0.03) 20px
+            );
+            animation: float 20s linear infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content {
+            padding: 50px 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        .section h3 {
+            color: #34495e;
+            font-size: 1.2rem;
+            margin: 20px 0 10px 0;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .section ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .contact-info {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .contact-info h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Términos y Condiciones de Servicio</h1>
+            <p class="subtitle">Última actualización: 4 de junio de 2025</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>1. Identificación del Prestador</h2>
+                <div class="contact-info">
+                    <h3>Datos del Prestador</h3>
+                    <p><strong>Titular:</strong> Juan Manuel Vazquez Jimenez</p>
+                    <p><strong>Régimen:</strong> Trabajador Autónomo inscrito en RETA</p>
+                    <p><strong>NIF:</strong> [Número de Identificación Fiscal]</p>
+                    <p><strong>Domicilio:</strong> [Dirección completa, Ciudad, Provincia, Código Postal, España]</p>
+                    <p><strong>Correo electrónico:</strong> juan@webstack.es</p>
+                    <p><strong>Teléfono:</strong> [nº de teléfono]</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>2. Objeto</h2>
+                <p>Estos Términos y Condiciones regulan la contratación y la prestación de servicios de desarrollo web realizados por el Prestador a favor del Cliente, incluyendo la creación o modificación de sitios web mediante plantillas pre-existentes debidamente licenciadas.</p>
+            </div>
+
+            <div class="section">
+                <h2>3. Alcance de los Servicios</h2>
+                <ul>
+                    <li>Selección y adaptación de una plantilla o tema prediseñado</li>
+                    <li>Personalización de estructura, estilos, contenidos y funcionalidades según las especificaciones aceptadas por escrito</li>
+                    <li>Entrega de los archivos y/o publicación en el dominio indicado</li>
+                    <li>Garantía de funcionamiento básico en los principales navegadores actualizados</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. Plazos de Entrega</h2>
+                <div class="highlight">
+                    <p><strong>Plazo estándar:</strong> Máximo diez (10) días naturales contados desde la recepción efectiva del pago inicial y de todos los materiales necesarios.</p>
+                </div>
+                <p>El Prestador se reserva el derecho de ajustar el calendario si el Cliente retrasa la entrega de materiales o solicita cambios adicionales no previstos.</p>
+            </div>
+
+            <div class="section">
+                <h2>5. Obligaciones del Cliente</h2>
+                <ul>
+                    <li>Facilitar la información y los contenidos necesarios en los formatos y tiempos acordados</li>
+                    <li>Obtener las licencias, permisos y/o derechos sobre cualesquiera textos, gráficos, imágenes o elementos suministrados</li>
+                    <li>Revisar y aprobar la propuesta dentro de las 48 horas posteriores a su entrega</li>
+                    <li>Pagar los importes acordados en los plazos convenidos</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>6. Tarifas, Presupuestos y Formas de Pago</h2>
+                <p>Todos los presupuestos se expresan en euros (EUR) e incluyen los impuestos vigentes (salvo indicación contraria).</p>
+                <div class="highlight">
+                    <p><strong>Modalidad de pago:</strong></p>
+                    <ul>
+                        <li>50% por adelantado para confirmar el encargo</li>
+                        <li>50% restante antes de la entrega final</li>
+                    </ul>
+                </div>
+                <p>Los pagos se realizarán mediante transferencia bancaria, Stripe o PayPal indicando el número de factura.</p>
+            </div>
+
+            <div class="section">
+                <h2>7. Propiedad Intelectual y Licencias</h2>
+                <p>El Prestador conserva todos los derechos de propiedad intelectual sobre el código fuente, módulos reutilizables y plantillas hasta el pago completo.</p>
+                <p>Tras el pago íntegro, el Cliente adquiere una licencia no exclusiva, mundial y perpetua de uso sobre el producto final para la finalidad contratada.</p>
+                <p>El código fuente completo será entregado al Cliente una vez realizado el pago íntegro.</p>
+                <div class="highlight">
+                    <p><strong>Importante:</strong> Queda prohibida la reventa o redistribución del producto sin autorización escrita.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>8. Garantías y Limitación de Responsabilidad</h2>
+                <p>El Prestador garantiza que el Servicio se ajustará razonablemente a las especificaciones acordadas durante <strong>30 días desde la entrega</strong>.</p>
+                <h3>Exclusiones de la garantía:</h3>
+                <ul>
+                    <li>Fallos causados por un uso indebido</li>
+                    <li>Modificaciones ajenas al Prestador</li>
+                    <li>Plugins de terceros instalados con posterioridad</li>
+                    <li>Problemas derivados del hosting del Cliente</li>
+                </ul>
+                <p>En ningún caso el Prestador será responsable de daños indirectos, pérdida de negocio, datos o lucro cesante. La responsabilidad total nunca excederá el importe realmente pagado por el Cliente.</p>
+            </div>
+
+            <div class="section">
+                <h2>9. Confidencialidad</h2>
+                <p>Las partes mantendrán la confidencialidad de la información técnica, comercial o de otra índole revelada con carácter confidencial durante la relación contractual.</p>
+            </div>
+
+            <div class="section">
+                <h2>10. Modificaciones y Trabajos Adicionales</h2>
+                <p>Cualquier cambio sustancial solicitado tras la aprobación inicial se presupuestará aparte y podrá implicar un nuevo plazo de entrega.</p>
+            </div>
+
+            <div class="section">
+                <h2>11. Suspensión y Resolución Anticipada</h2>
+                <p>El Prestador podrá suspender el Servicio si el Cliente incumple las obligaciones de pago o de suministro de contenidos tras previo requerimiento.</p>
+                <p>Cualquiera de las partes podrá resolver el contrato con un preaviso escrito de 7 días en caso de incumplimiento grave.</p>
+            </div>
+
+            <div class="section">
+                <h2>12. Legislación Aplicable y Jurisdicción</h2>
+                <p>Los presentes Términos se rigen por la legislación española, en particular por la Ley 34/2002 (LSSI-CE) y el Código Civil.</p>
+                <p>Para la resolución de conflictos las partes se someten a los Juzgados y Tribunales de la ciudad de [Ciudad del Prestador], renunciando a cualquier otro fuero.</p>
+            </div>
+
+            <div class="section">
+                <h2>13. Notificaciones</h2>
+                <p>Toda comunicación se realizará por escrito a las direcciones indicadas en la Sección 1 o a la dirección que cada parte notifique a la otra.</p>
+            </div>
+
+            <div class="section">
+                <h2>14. Aceptación</h2>
+                <div class="highlight">
+                    <p>El Cliente declara haber leído y aceptado íntegramente estos Términos y Condiciones mediante la firma del presupuesto o el pago de la señal correspondiente.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Juan Manuel Vazquez Jimenez - WebStack. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
