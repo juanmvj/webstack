@@ -13,6 +13,26 @@
   gtag('config', 'AW-17134100285');
 </script>
 
+
+<!-- Conversion tracking function -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-17134100285/ZxsBCOCL9dYaEL2-luo_',
+      'value': 1.0,
+      'currency': 'EUR',
+      'transaction_id': '',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Webstack - Tu web sin complicaciones ni pagos innecesarios</title>
@@ -1219,7 +1239,7 @@ appointment Area
                             <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="" required></textarea>
                             </div>
                             <div class="form-btn col-12">
-                            <button type="submit" class="th-btn btn-fw" id="submit-btn">
+                            <button type="submit" class="th-btn btn-fw" id="submit-btn" onclick="gtag_report_conversion();">
                             <span class="btn-text">Enviar Mensaje</span>
                             <span class="btn-loading" style="display: none;">Enviando...</span>
                             </button>
